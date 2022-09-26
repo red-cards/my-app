@@ -27,7 +27,7 @@ class Product extends React.Component{
                         <img src={SofaKecil} alt='banyak sofa' className='w-50 mx-auto mt-4'/>
                         </Row>
                     </Col>
-                    <Col fluid='md'>
+                    <Col fluid='md' className='text-center'>
                         <img src={SofaBesar} className='w-75 mt-5' alt='sofaGede'/>
                     </Col>
                 </Row>
