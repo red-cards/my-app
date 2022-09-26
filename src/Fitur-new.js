@@ -12,8 +12,8 @@ class Fitur extends React.Component{
                         </Col>
                         <Col md="3">
                             <Card.Body className="border-0" style={{backgroundColor:"#2e3192",color:'white'}}>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text className="fs-6">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
+                                <Card.Title>Gratis Ongkir</Card.Title>
+                                <Card.Text className="fs-6">Gratis ongir untuk area kota malang, untuk pengiriman di wilayah lain bisa hubungi kami untuk biayanya</Card.Text>
                             </Card.Body>
                         </Col>
                     </Row>
