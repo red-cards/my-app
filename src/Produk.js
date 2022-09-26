@@ -11,7 +11,7 @@ class Product extends React.Component{
     render(){
         return(
             <Container fluid style={{backgroundColor:'#2e3192'}}> 
-                <Row fluid>
+                <Row fluid  xs={1} md={2}>
                     <Col fluid='md'>
                         <Row>
                             <img src={Ekspresikan} className='text-center mx-auto mt-4 w-75' alt='ekspresikan ruangamu'/>
