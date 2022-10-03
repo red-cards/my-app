@@ -1,6 +1,6 @@
 import React from 'react';
 import slide1 from './slide1.jpg';
-import slide2 from './slide2.jpg';
+import slide2 from './slide2.png';
 import Carousel from 'react-bootstrap/Carousel';
 //import { Container } from 'react-bootstrap';
 //import cat from './cat.png';

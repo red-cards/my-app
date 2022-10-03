@@ -14,8 +14,8 @@ class SlideBarang extends React.Component{
             <Container fluid style={{backgroundImage:`url(${bg})`,backgroundSize:'100%',backgroundPosition:'center',backgroundRepeat:'none'}} className='w-100'>
                 <Row>
                     <Col className="w-50 pt-5">
-                        <Carousel indicators={false} className="">
-                            <Carousel.Item className="">
+                        <Carousel indicators={false} className="align-items-end">
+                            <Carousel.Item className="align-items-end">
                                 <img alt="gambar meja makan 1" src={mm1} className="w-100 d-flex align-items-end"/>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -25,8 +25,8 @@ class SlideBarang extends React.Component{
                     </Col>
                     <Col className="w-50">
                         <Carousel  indicators={false}>
-                            <Carousel.Item>
-                                <img alt="gambar sofa 1"  src={sofa1} className="w-100 d-flex align-items-end "/>
+                            <Carousel.Item className="position-relative">
+                                <img alt="gambar sofa 1"  src={sofa1} className="w-100 d-flex absolute-bottom"/>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img alt="gambar sofa 2"  src={sofa2} className="w-100 d-flex align-items-end "/>
