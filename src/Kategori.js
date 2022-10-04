@@ -11,7 +11,7 @@ class Kategori extends React.Component{
                 <Row className="text-center mt-5">
                     <h1>Kategori Product</h1>
                 </Row>
-                <Row className="mt-2 w-75 mx-auto mb-5">
+                <Row className="mt-2 w-75 mx-auto mb-5" xs={2} lg={4}>
                     <Col>
                         <Card className="w-100 mx-auto shadow">
                             <Card.Img src={rt} style={{width: "100%",objectFit: "cover"}}/>
